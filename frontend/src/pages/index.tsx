@@ -5,7 +5,7 @@ type Props = {
   title: string
 }
 
-export default function Home({ title = 'Augusto Scher' }: Props) {
+export default function Home           ({ title = 'Augusto Scher' }: Props) {
   return (
     <div className="container">
       <Head>
