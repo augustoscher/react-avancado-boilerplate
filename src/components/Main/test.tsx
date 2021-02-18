@@ -5,10 +5,17 @@ import Main from './index'
 describe('<Main />', () => {
   it('match snapshot', () => {
     const { container } = render(<Main />)
+
     expect(container).toMatchSnapshot()
   })
 
-  it('shoule render the heading', () => {
+  it('should render the colors correctly', () => {
+    const { container } = render(<Main />)
+
+    expect(container.firstChild).toHaveStyle({ 'background-color': '#06092b' })
+  })
+
+  it('should render the heading', () => {
     render(<Main />)
 
     expect(
