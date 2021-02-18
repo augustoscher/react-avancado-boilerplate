@@ -2,10 +2,29 @@
 
 exports[`<Main /> match snapshot 1`] = `
 <div>
-  <main>
-    <h1>
+  <main
+    class="styles__Wrapper-sc-18tj86z-0 jZITAN"
+  >
+    <img
+      alt="Image de um atomo e React Avançado escrito ao lado"
+      class="styles__Logo-sc-18tj86z-1 cnjhQu"
+      src="/img/logo.svg"
+    />
+    <h1
+      class="styles__Title-sc-18tj86z-2 jcjSPU"
+    >
       React Avançado
     </h1>
+    <h2
+      class="styles__Description-sc-18tj86z-3 bmqGsn"
+    >
+      TypeScript. ReactJS, NextJS e StyledComponents
+    </h2>
+    <img
+      alt="Desenvolvedor sentado na cadeira de frente para a tela"
+      class="styles__Ilustration-sc-18tj86z-4 lcSWhC"
+      src="/img/hero-illustration.svg"
+    />
   </main>
 </div>
-`;
+`
