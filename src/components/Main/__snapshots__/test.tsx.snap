@@ -49,7 +49,7 @@ exports[`<Main /> match snapshot 1`] = `
     class="c0"
   >
     <img
-      alt="Image de um atomo e React Avançado escrito ao lado"
+      alt="Imagem de um atomo e React Avançado escrito ao lado"
       class="c1"
       src="/img/logo.svg"
     />
