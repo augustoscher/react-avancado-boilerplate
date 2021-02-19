@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "NODE_ENV=production next build",
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
     "test": "jest",
@@ -30,6 +30,7 @@
     "babel-plugin-styled-components": "^1.12.0",
     "jest-styled-components": "^7.0.3",
     "next": "9.5.2",
+    "next-pwa": "^5.0.5",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "styled-components": "^5.2.1"
