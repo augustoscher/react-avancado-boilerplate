@@ -34,7 +34,7 @@ You can start editing the page by modifying `pages/index.js`. The page auto-upda
 
 You can create your NextJS app using this boilerplate. Type the comand below and follow the steps.
 
-```
+```shell
 yarn create next-app -e https://github.com/augustoscher/react-avancado-boilerplate
 ```
 
